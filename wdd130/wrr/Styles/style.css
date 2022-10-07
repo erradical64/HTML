@@ -1,0 +1,109 @@
+
+footer p {
+    font-size: 1.2em;
+    color: bisque
+}
+footer p a {
+    color: bisque
+}
+footer p a:hover {
+    text-decoration: none;
+    text-align: center;
+    color: rgb(255, 255, 0);
+    background-color: black;
+}    
+div {
+    max-width: 1600px;
+    height: 200px;
+}
+#random-square-here{
+    height: 500px;
+    background-color: bisque;
+}
+.split{
+    height: 500px;
+}
+#hero{
+    text-align: center;
+    height: 20000 px;
+}
+#hero-box{
+    height: 1200px;
+
+}
+section
+{
+    text-align: center;
+    max-width: 1600px;
+}
+
+
+.cleaning-up-here
+{
+    height: 700px;
+}
+.msg{
+    background-color: rgba(20,30,13, .7);
+    color: bisque
+}
+section a:hover{
+    background-color: black;
+    color: rgb(255, 255, 0)
+}
+#rapids-card
+{
+    background-color: powderblue;
+}
+.background {
+    height: 725px;
+}
+.social 
+{
+    height: 300px;
+}
+body {
+    background-color: #fcfbfb; 
+}
+header {
+    background-color:rgba(20,30,13, .7);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.join{
+    color: bisque
+}
+nav a {
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+}  
+nav a:hover {
+    background-color: black;
+}
+img {
+    
+    width: 300px;
+  }
+.hero-img
+{
+    width: 1264px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.logo{
+    width: 80px;
+}
+footer{
+    background-color: rgba(20,30,13, .7);
+    color: bisque
+}
+footer img{
+    width: 80px;
+}
+.icon {
+    width: 80px;
+}
