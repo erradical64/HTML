@@ -60,6 +60,8 @@ hr {
 header {
   padding: 1em;
   text-align: center;
+  display: grid;
+  grid-template-columns: 150px auto;
   color: var(--paragraph-color-on-color);
   background-color: var(--paragraph-background-color);
 }
@@ -124,6 +126,8 @@ p.colored {
 nav {
   background-color: var(--nav-background-color);
   line-height: 3em;
+  display: flex;
+  justify-content: space-around;
   text-align: center;
   font-size: 1.2em;
 }
