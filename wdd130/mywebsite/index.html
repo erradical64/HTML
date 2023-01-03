@@ -1,56 +1,62 @@
 <!DOCTYPE html>
 <html lang = "en">
     <head>
-        <nav>
-          <a href="index.html">Home</a>
-          <a href="second-page.html">Software Lineup</a>
-          <a href="site-planning.html">Site Plan</a>
-          <a href="third-page.html">Contact Us</a>
-          <a href="#">About Us</a>
-          </nav>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link type="text/css" rel="stylesheet" href="styles/newccs.css">
+        <link type="text/css" rel="stylesheet" href="styles/styles.css">
         <title>Main Page</title>
     </head>
     <header>
-
-        <img class="logo" src="images/fakename.png" alt="Logo image" />
+      <img class="logo" src="images/fakename.png" alt="Logo image" />
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="second-page.html">Software Lineup</a>
+        <a href="third-page.html">Contact Us</a>
+        <a href="aboutus.html">About Us</a>
+        </nav>
       </header>
     <body>
-      
-      <hr />
-      <h2>Some of our games:</h2>
-      <!--div class="row"!-->
-      <!--div class="column"!-->
-        <p>Coming Soon, to be announced later...</p>
-      <!--/div!-->
-      <!--div class="column"!-->
-      <img class="gamebox" src="Images/ComingSoon.png" alt="Logo image" />
-      <!--/div!-->
-      <!--/div!-->
-      <hr />
-      <h2>Site Map</h2>
-      <div class="sitemap">
-        <div class="sm-home">Home</div>
-        <div class="sm-page2">
-          Software Lineup
-          <!-- this page will have a name later -->
-        </div>
-        <div class="sm-page3">Contact Us</div>
-  
-        <div class="top">&nbsp;</div>
-        <div class="left">&nbsp;</div>
-        <div class="right">&nbsp;</div>
-      </div>
-      <hr />
-    </body>
-    <footer>
-        <p class="colored">
+      <main>
+        <p>We are a game development studio from Northern Utah, we aim to create fun, interactive games with engaging gameplay and stories in them.</p>
+        <hr />
+        <h2>Here are some of our games:</h2>
+        <section class="home-click">
+          
+          <a href="second-page.html">
+            <img class="gamebox" src="images/comingsoon.png" alt="Dodo?" />
+          </a>
+          <p>Our first two games are currently in development. Check out our software lineup page for more information about them!</p>
+        </section>
+        <hr />
+        <section class="business">
+          <div class ="fireside">
+          <p>We are a game company that was established on December 31st 2018. Want to join us or learn more about us? Press the button down below for more information!</p>
+          <img src="images/firechat.png" alt="Dodo camping.">
+          </div>
+          <a class="join" href="#">About Us</a>
+
+        </section>
+      </main>
+      <footer>
+        <a href="site-plan.html">
+          <img src="images/site-plan-link.png" alt="Site Plan" />
+        </a>
+        <p id="information">
           ©2022 Bear River Games LLC, all rights reserved.
         </p>
-  </footer>
-
-
+        <div class ="socials">
+          <a href="https://facebook.com" target="_blank">
+            <img src="images/facebook.png" alt="fb icon">
+        </a>
+        <a href="https://instagram.com" target="_blank">
+          <img src="images/instagram.png" alt="instagram icon, basically facebook again, due to Meta.">
+        </a>
+        <a href="https://twitter.com" target="_blank">
+            <img src="images/twitter.png" alt="twitter icon">
+        </a>
+        </div>
+    </footer>
+      
+    </body>
 </html>
